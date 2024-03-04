@@ -14,7 +14,6 @@ const Item = styled(Paper)(({ theme }) => ({
 function Cpwebsites() {
   return (
     <>
-      {" "}
       <Typography variant="h5" backgroundColor="dark" margin={5}>
         <Button color="Heading" variant="contained">
           Competitive Programming
@@ -29,19 +28,16 @@ function Cpwebsites() {
           </Grid>
           <Grid item>
             <Item>
-              {" "}
               <Codechefcard />
             </Item>
           </Grid>
           <Grid item>
             <Item>
-              {" "}
               <Atcodercard />
             </Item>
           </Grid>
           <Grid item>
             <Item>
-              {" "}
               <Csescard />
             </Item>
           </Grid>
