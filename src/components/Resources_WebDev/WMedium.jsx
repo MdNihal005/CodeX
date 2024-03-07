@@ -5,30 +5,33 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-const Medium = () => {
+const WMedium = () => {
   return (
     <Card>
       <CardMedia
-        sx={{ height: { xs: 100, md: 200 } }}
+        sx={{ height: { xs: 100, md: 200 }, objectFit: "cover" }}
         component={"image"}
-        title="Medium"
         image="/src/assets/ResourceImages/Screenshot 2024-03-07 at 11-32-58 📚🏆 Top 20 Web Development Learning Resources From Beginner to Advanced.png"
-        alt="Medium"
+        title="take u forward"
+        alt="take u forward"
       />
       <CardContent>
         <Typography
           gutterBottom
           variant="h5"
           component="div"
+          color={"red"}
           sx={{ fontWeight: "bold" }}
         >
-          Medium Article for DSA Resource
+          📚🏆 Top 20 Web Development Learning Resources: From Beginner to
+          Advanced
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Hey everyone, I will be joining Amazon as Software Development
-          Engineering Intern for 6 months from February 2021. In this article, I
-          have shared all the important resources which I followed to make a
-          good command on Data Structures and Algorithms.
+          Web development refers to the act of building and maintaining
+          websites; these websites can range in complexity from simple static
+          websites to more complex web applications with huge databases,
+          real-time data-intensive applications such as social media and
+          eCommerce applications.
         </Typography>
       </CardContent>
       <CardActions
@@ -37,7 +40,7 @@ const Medium = () => {
         <Button size="small">
           <a
             target="_blank"
-            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjX_JOEr9qEAxWk4DgGHfWGBzsQFnoECBQQAQ&url=https%3A%2F%2Fanubhavsinha98.medium.com%2Fresources-to-master-data-structures-and-algorithms-24450dc6d52b&usg=AOvVaw1Ixmc2I7jf2uu1aYO0MgY0&opi=89978449"
+            href="https://dev.to/alexomeyer/top-20-web-development-learning-resources-from-beginner-to-advanced-4h8a"
           >
             Open
           </a>
@@ -46,4 +49,4 @@ const Medium = () => {
     </Card>
   );
 };
-export default Medium;
+export default WMedium;

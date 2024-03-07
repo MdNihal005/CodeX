@@ -5,30 +5,29 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-const Medium = () => {
+const Codevolution = () => {
   return (
     <Card>
       <CardMedia
         sx={{ height: { xs: 100, md: 200 } }}
         component={"image"}
-        title="Medium"
-        image="/src/assets/ResourceImages/Screenshot 2024-03-07 at 11-32-58 📚🏆 Top 20 Web Development Learning Resources From Beginner to Advanced.png"
-        alt="Medium"
+        image="/src/assets/ResourceImages/code-evalution.jpeg"
+        title="codevolution"
+        alt="Codevolution"
       />
       <CardContent>
         <Typography
           gutterBottom
           variant="h5"
           component="div"
-          sx={{ fontWeight: "bold" }}
+          sx={{ fontWeight: "bold", color: "brown" }}
         >
-          Medium Article for DSA Resource
+          Codevolution
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Hey everyone, I will be joining Amazon as Software Development
-          Engineering Intern for 6 months from February 2021. In this article, I
-          have shared all the important resources which I followed to make a
-          good command on Data Structures and Algorithms.
+          Tutorials on the latest tech in web development! ...more ...more
+          learn.codevolution.devand 2 more links. Subscribe. Home. Videos.
+          Shorts. Playlists.
         </Typography>
       </CardContent>
       <CardActions
@@ -37,7 +36,7 @@ const Medium = () => {
         <Button size="small">
           <a
             target="_blank"
-            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjX_JOEr9qEAxWk4DgGHfWGBzsQFnoECBQQAQ&url=https%3A%2F%2Fanubhavsinha98.medium.com%2Fresources-to-master-data-structures-and-algorithms-24450dc6d52b&usg=AOvVaw1Ixmc2I7jf2uu1aYO0MgY0&opi=89978449"
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjI0c3lveGEAxVoxjgGHVT-AnkQFnoECA8QAQ&url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC80PWRj_ZU8Zu0HSMNVwKWw&usg=AOvVaw2eAdcebJPNnwJWQd6Z_zYl&opi=89978449"
           >
             Open
           </a>
@@ -46,4 +45,4 @@ const Medium = () => {
     </Card>
   );
 };
-export default Medium;
+export default Codevolution;
