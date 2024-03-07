@@ -21,6 +21,9 @@ const darkTheme = (theme) =>
       Heading: {
         main: "#ffb366",
       },
+      text: {
+        main: theme ? "#6e14a6" : "#3c13f0",
+      },
     },
   });
 const App = () => {

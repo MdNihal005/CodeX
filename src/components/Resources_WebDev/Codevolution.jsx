@@ -33,7 +33,7 @@ const Codevolution = () => {
       <CardActions
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
-        <Button size="small">
+        <Button color="text" size="small">
           <a
             target="_blank"
             href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjI0c3lveGEAxVoxjgGHVT-AnkQFnoECA8QAQ&url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC80PWRj_ZU8Zu0HSMNVwKWw&usg=AOvVaw2eAdcebJPNnwJWQd6Z_zYl&opi=89978449"

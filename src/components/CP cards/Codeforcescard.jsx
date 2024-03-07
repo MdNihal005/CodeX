@@ -10,9 +10,9 @@ const Codeforcescard = () => {
     <Card
       sx={{
         maxWidth: { xs: 200, md: 270 },
-        maxHeight: { xs: 200, md: 350 },
+        maxHeight: { xs: 250, md: 350 },
         minWidth: { xs: 200, md: 270 },
-        minHeight: { xs: 200, md: 300 },
+        minHeight: { xs: 200, md: 340 },
       }}
     >
       <CardMedia
@@ -29,13 +29,14 @@ const Codeforcescard = () => {
           color="text.secondary"
           sx={{ display: { xs: "none", md: "flex" } }}
         >
-         Codeforces: Online competitive programming platform hosting contests, problems, and discussions to improve coding skills.
+          Codeforces: Online competitive programming platform hosting contests,
+          problems, and discussions to improve coding skills.
         </Typography>
       </CardContent>
       <CardActions
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
-        <Button size="small">
+        <Button color="text" size="small">
           <a target="_blank" href="https://codeforces.com/">
             Open
           </a>

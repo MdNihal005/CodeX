@@ -34,7 +34,7 @@ const Medium = () => {
       <CardActions
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
-        <Button size="small">
+        <Button color="text" size="small">
           <a
             target="_blank"
             href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjX_JOEr9qEAxWk4DgGHfWGBzsQFnoECBQQAQ&url=https%3A%2F%2Fanubhavsinha98.medium.com%2Fresources-to-master-data-structures-and-algorithms-24450dc6d52b&usg=AOvVaw1Ixmc2I7jf2uu1aYO0MgY0&opi=89978449"

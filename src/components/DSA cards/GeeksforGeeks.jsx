@@ -5,12 +5,14 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-const  GeeksforGeeks = () => {
+const GeeksforGeeks = () => {
   return (
     <Card
       sx={{
         maxWidth: { xs: 200, md: 270 },
-        maxHeight: { xs: 200, md: 350 },
+        maxHeight: { xs: 250, md: 350 },
+        minWidth: { xs: 200, md: 270 },
+        minHeight: { xs: 200, md: 340 },
       }}
     >
       <CardMedia
@@ -22,14 +24,19 @@ const  GeeksforGeeks = () => {
         <Typography gutterBottom variant="h5" component="div">
           GeeksforGeeks
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-        GeeksforGeeks: Online platform for learning computer science concepts, practicing coding problems, and preparing for interviews.
+        <Typography
+          sx={{ display: { xs: "none", md: "flex" } }}
+          variant="body2"
+          color="text.secondary"
+        >
+          GeeksforGeeks: Online platform for learning computer science concepts,
+          practicing coding problems, and preparing for interviews.
         </Typography>
       </CardContent>
       <CardActions
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
-        <Button size="small">
+        <Button color="text" size="small">
           <a target="_blank" href="https://www.geeksforgeeks.org/">
             Open
           </a>
@@ -38,4 +45,4 @@ const  GeeksforGeeks = () => {
     </Card>
   );
 };
-export default  GeeksforGeeks;
+export default GeeksforGeeks;

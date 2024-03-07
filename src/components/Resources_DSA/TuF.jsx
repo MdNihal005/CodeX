@@ -38,7 +38,7 @@ const TuF = () => {
       <CardActions
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
-        <Button size="small">
+        <Button color="text" size="small">
           <a target="_blank" href="https://takeuforward.org/">
             Open
           </a>

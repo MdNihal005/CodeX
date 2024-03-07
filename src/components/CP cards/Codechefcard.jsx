@@ -10,9 +10,9 @@ const Codechefcard = () => {
     <Card
       sx={{
         maxWidth: { xs: 200, md: 270 },
-        maxHeight: { xs: 200, md: 350 },
+        maxHeight: { xs: 250, md: 350 },
         minWidth: { xs: 200, md: 270 },
-        minHeight: { xs: 200, md: 300 },
+        minHeight: { xs: 200, md: 340 },
       }}
     >
       <CardMedia
@@ -29,13 +29,14 @@ const Codechefcard = () => {
           color="text.secondary"
           sx={{ display: { xs: "none", md: "flex" } }}
         >
-          CodeChef: Online platform offering competitive programming contests, challenges, tutorials, and a discussion forum.
+          CodeChef: Online platform offering competitive programming contests,
+          challenges, tutorials, and a discussion forum.
         </Typography>
       </CardContent>
       <CardActions
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
-        <Button size="small">
+        <Button color="text" size="small">
           <a target="_blank" href="https://www.codechef.com/dashboard">
             Open
           </a>

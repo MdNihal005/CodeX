@@ -37,7 +37,7 @@ const WMedium = () => {
       <CardActions
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
-        <Button size="small">
+        <Button color="text" size="small">
           <a
             target="_blank"
             href="https://dev.to/alexomeyer/top-20-web-development-learning-resources-from-beginner-to-advanced-4h8a"

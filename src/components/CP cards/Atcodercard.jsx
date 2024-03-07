@@ -10,13 +10,13 @@ const Atcodercard = () => {
     <Card
       sx={{
         maxWidth: { xs: 200, md: 270 },
-        maxHeight: { xs: 200, md: 350 },
+        maxHeight: { xs: 250, md: 350 },
         minWidth: { xs: 200, md: 270 },
         minHeight: { xs: 200, md: 340 },
       }}
     >
       <CardMedia
-        sx={{ height: { xs: 100, md: 140 } }}
+        sx={{ height: { xs: 120, md: 140 } }}
         image="/src/assets/CP Images/atcoder.png"
         title="atcoder"
       />
@@ -36,7 +36,7 @@ const Atcodercard = () => {
       <CardActions
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
-        <Button size="small">
+        <Button color="text" size="small">
           <a target="_blank" href="https://atcoder.jp/">
             Open
           </a>
