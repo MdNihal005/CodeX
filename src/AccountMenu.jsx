@@ -21,17 +21,16 @@ export default function AccountMenu() {
   };
   return (
     <React.Fragment>
-      <Box sx={{ display: "flex", alignItems: "center", textAlign: "center" }}>
+      <Box>
         <Tooltip title="Account settings">
           <IconButton
             onClick={handleClick}
             size="small"
-            sx={{ ml: 2 }}
             aria-controls={open ? "account-menu" : undefined}
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
           >
-            <Avatar sx={{ width: 32, height: 32 }}>M</Avatar>
+            <Avatar sx={{ marginLeft: 1, width: 32, height: 32 }}></Avatar>
           </IconButton>
         </Tooltip>
       </Box>
@@ -55,8 +54,6 @@ export default function AccountMenu() {
             },
             "&::before": {
               content: '""',
-              display: "block",
-              position: "absolute",
               top: 0,
               right: 14,
               width: 10,

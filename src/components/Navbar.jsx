@@ -15,6 +15,7 @@ import Brightness7Icon from "@mui/icons-material/Brightness7";
 const pages = ["Home", "Resources", "resume", "Help Desk", "Notifications"];
 import AccountMenu from "../AccountMenu";
 import { Link } from "react-router-dom";
+import { Stack } from "@mui/material";
 function Navbar(Theme) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -89,7 +90,7 @@ function Navbar(Theme) {
           >
             codeX
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box sx={{ flexGrow: 2, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <>
                 <Link to={page}>
@@ -110,22 +111,22 @@ function Navbar(Theme) {
             ))}
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
+          <Stack
+            direction={"row"}
+            sx={{
+              flexGrow: 0,
+            }}
+          >
             <IconButton
-              sx={{ mx: 1 }}
               onClick={() => {
-                Theme.child((c) => c ^ 1);
+                Theme.child.setTheme((c) => c ^ 1);
               }}
               color="inherit"
             >
-              {Theme.child === "dark" ? (
-                <Brightness7Icon />
-              ) : (
-                <Brightness4Icon />
-              )}
+              {Theme.child.theme ? <Brightness7Icon /> : <Brightness4Icon />}
             </IconButton>
             <AccountMenu />
-          </Box>
+          </Stack>
         </Toolbar>
       </Container>
     </AppBar>

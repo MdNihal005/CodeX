@@ -30,7 +30,7 @@ const App = () => {
   const [theme, setTheme] = useState(1);
   return (
     <ThemeProvider theme={darkTheme(theme)}>
-      <Navbar color="primary" child={setTheme} />
+      <Navbar color="primary" child={{ theme, setTheme }} />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Home" element={<HomePage />} />
