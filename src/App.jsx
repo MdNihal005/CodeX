@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { useState } from "react";
 import HomePage from "./components/HomePage";
+import Resume from "./components/Resume";
 import { Route, Routes } from "react-router-dom";
 import HelpDesk from "./components/HelpDesk";
 import NotificationsPage from "./components/NotificationsPage";
@@ -37,6 +38,7 @@ const App = () => {
         <Route path="/Help Desk" element={<HelpDesk />} />
         <Route path="/Notifications" element={<NotificationsPage />} />
         <Route path="/Resources" element={<ResourcesPage />} />
+        <Route path="/Resume" element={<Resume />} />
       </Routes>
     </ThemeProvider>
   );
