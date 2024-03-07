@@ -9,14 +9,17 @@ import IconButton from "@mui/material/IconButton";
 import Tooltip from "@mui/material/Tooltip";
 import Settings from "@mui/icons-material/Settings";
 import Logout from "@mui/icons-material/Logout";
+import { Login } from "@mui/icons-material";
 
 export default function AccountMenu() {
+  const [LoggedIn, setLoggedIn] = React.useState(0);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
   const handleClose = () => {
+    console.log("clicked");
     setAnchorEl(null);
   };
   return (
@@ -77,11 +80,19 @@ export default function AccountMenu() {
           </ListItemIcon>
           Settings
         </MenuItem>
-        <MenuItem onClick={handleClose}>
+        <MenuItem
+          onClick={() => {
+            handleClose, setLoggedIn((e) => !e);
+          }}
+        >
           <ListItemIcon>
-            <Logout fontSize="small" />
+            {LoggedIn ? (
+              <Logout fontSize="small" />
+            ) : (
+              <Login fontSize="small" />
+            )}
           </ListItemIcon>
-          Logout
+          {LoggedIn ? "Logout" : "Login"}
         </MenuItem>
       </Menu>
     </React.Fragment>

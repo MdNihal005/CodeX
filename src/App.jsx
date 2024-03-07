@@ -9,6 +9,8 @@ import { Route, Routes } from "react-router-dom";
 import HelpDesk from "./components/HelpDesk";
 import NotificationsPage from "./components/NotificationsPage";
 import ResourcesPage from "./components/ResourcesPage";
+import SignIn from "./SignIn";
+import SignUp from "./SignUp";
 const darkTheme = (theme) =>
   createTheme({
     palette: {
@@ -39,6 +41,8 @@ const App = () => {
         <Route path="/Notifications" element={<NotificationsPage />} />
         <Route path="/Resources" element={<ResourcesPage />} />
         <Route path="/Resume" element={<Resume />} />
+        <Route path="/Login" element={<SignIn />} />
+        <Route path="/SignUp" element={<SignUp />} />
       </Routes>
     </ThemeProvider>
   );
