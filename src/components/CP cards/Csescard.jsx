@@ -18,7 +18,7 @@ const Csescard = () => {
       <CardMedia
         sx={{ height: { xs: 100, md: 140 } }}
         image="/src/assets/CP Images/cses.jpeg"
-        title="codeforces"
+        title="cses"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -29,8 +29,7 @@ const Csescard = () => {
           color="text.secondary"
           sx={{ display: { xs: "none", md: "flex" } }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-          maxime.
+         CSES: Book teaching algorithms, data structures, and problem-solving in Python, with a problem set and solutions.
         </Typography>
       </CardContent>
       <CardActions

@@ -18,7 +18,7 @@ function ResourcesPage() {
           Data Structures and Algorithms
         </Button>
       </Typography>
-      <Box margin={2} sx={{ width: "97%", flexGrow: 1 }}>
+      <Box margin={2} sx={{ width: "95s%", flexGrow: 1 }}>
         <Grid overflow={"hidden"} container gap={5}>
           <Grid itemScope>
             <Item>

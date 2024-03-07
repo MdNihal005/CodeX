@@ -9,13 +9,20 @@ const TuF = () => {
   return (
     <Card>
       <CardMedia
-        sx={{ height: { xs: 100, md: 140 } }}
-        // image="/src/assets/CP Images/atcoder.jpeg"
+        sx={{ height: { xs: 100, md: 200 }, objectFit: "cover" }}
+        component={"image"}
+        image="/src/assets/ResourceImages/Screenshot 2024-03-07 at 10-41-22 Strivers A2Z DSA Course_Sheet - Crack Any FAANG or PBCs.png"
         title="take u forward"
         alt="take u forward"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          color={"red"}
+          sx={{ fontWeight: "bold" }}
+        >
           Take U Forward [ A to Z sheet ]
         </Typography>
         <Typography variant="body2" color="text.secondary">

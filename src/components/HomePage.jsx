@@ -1,7 +1,8 @@
 // import styled from "@emotion/styled";
 import { Box, Stack } from "@mui/material";
 import Cpwebsites from "./Cpwebsites";
-
+import DSAwebsites from "./DSAWebsites";
+import WebWebsites from "./WebWebsites";
 // const Item = styled(Paper)(({ theme }) => ({
 //   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
 //   ...theme.typography.body2,
@@ -21,8 +22,8 @@ const HomePage = () => {
     >
       <Box width={"100%"}>
         <Cpwebsites />
-        <Cpwebsites />
-        <Cpwebsites />
+        <DSAwebsites />
+        <WebWebsites />
       </Box>
     </Stack>
   );

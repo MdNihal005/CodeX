@@ -5,38 +5,32 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-const Codechefcard = () => {
+const  Hackerrank = () => {
   return (
     <Card
       sx={{
         maxWidth: { xs: 200, md: 270 },
         maxHeight: { xs: 200, md: 350 },
-        minWidth: { xs: 200, md: 270 },
-        minHeight: { xs: 200, md: 300 },
       }}
     >
       <CardMedia
-        sx={{ height: { xs: 100, md: 140 } }}
-        image="/src/assets/CP Images/codechef.png"
-        title="codechef"
+        sx={{ margin:'20px',height: { xs: 100, md: 140 } ,width:{xs:'60%',md:'80%'}}}
+        image="/src/assets/CP Images/hacker.png"
+        title="HackerRank"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Codechef
+          HackerRank
         </Typography>
-        <Typography
-          variant="body2"
-          color="text.secondary"
-          sx={{ display: { xs: "none", md: "flex" } }}
-        >
-          CodeChef: Online platform offering competitive programming contests, challenges, tutorials, and a discussion forum.
+        <Typography variant="body2" color="text.secondary">
+        HackerRank: Online platform for practicing coding skills, competing in challenges.
         </Typography>
       </CardContent>
       <CardActions
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
         <Button size="small">
-          <a target="_blank" href="https://www.codechef.com/dashboard">
+          <a target="_blank" href="https://www.hackerrank.com/">
             Open
           </a>
         </Button>
@@ -44,4 +38,4 @@ const Codechefcard = () => {
     </Card>
   );
 };
-export default Codechefcard;
+export default  Hackerrank;

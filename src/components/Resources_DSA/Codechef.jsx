@@ -9,13 +9,19 @@ const Codechef = () => {
   return (
     <Card>
       <CardMedia
-        sx={{ height: { xs: 100, md: 150 } }}
-        // image="/src/assets/CP Images/atcoder.jpeg"
+        sx={{ height: { xs: 100, md: 200 } }}
+        component={"image"}
+        image="/src/assets/ResourceImages/Screenshot 2024-03-07 at 10-27-45 Learn Data Structures and Algorithms CodeChef.png"
         title="Codechef"
         alt="Codechef"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          sx={{ fontWeight: "bold", color: "brown" }}
+        >
           Codechef
         </Typography>
         <Typography variant="body2" color="text.secondary">

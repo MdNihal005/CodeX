@@ -29,8 +29,7 @@ const Codeforcescard = () => {
           color="text.secondary"
           sx={{ display: { xs: "none", md: "flex" } }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-          maxime.
+         Codeforces: Online competitive programming platform hosting contests, problems, and discussions to improve coding skills.
         </Typography>
       </CardContent>
       <CardActions

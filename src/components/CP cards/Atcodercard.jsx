@@ -12,13 +12,13 @@ const Atcodercard = () => {
         maxWidth: { xs: 200, md: 270 },
         maxHeight: { xs: 200, md: 350 },
         minWidth: { xs: 200, md: 270 },
-        minHeight: { xs: 200, md: 300 },
+        minHeight: { xs: 200, md: 340 },
       }}
     >
       <CardMedia
         sx={{ height: { xs: 100, md: 140 } }}
-        image="/src/assets/CP Images/atcoder.jpeg"
-        title="codeforces"
+        image="/src/assets/CP Images/atcoder.png"
+        title="atcoder"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -29,8 +29,8 @@ const Atcodercard = () => {
           color="text.secondary"
           sx={{ display: { xs: "none", md: "flex" } }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-          maxime.
+          AtCoder: Online platform for competitive programming contests and
+          skill development.
         </Typography>
       </CardContent>
       <CardActions
