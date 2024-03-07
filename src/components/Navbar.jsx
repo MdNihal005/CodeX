@@ -132,7 +132,7 @@ function Navbar(Theme) {
 
           <Box sx={{ flexGrow: 0 }}>
             <IconButton
-              sx={{ ml: 1 }}
+              sx={{ mx: 1 }}
               onClick={() => {
                 Theme.child((c) => c ^ 1);
               }}
