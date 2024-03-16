@@ -12,7 +12,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
-const pages = ["Home", "Resources", "resume", "Help Desk", "Notifications"];
+const pages = ["Home", "Resources", "resume", "Help Desk"]; //, "Notifications"
 import AccountMenu from "../AccountMenu";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
